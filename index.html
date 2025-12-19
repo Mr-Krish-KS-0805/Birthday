@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Pallavi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎂 Happy Birthday, <span id="sisterName">Sister</span>! 🎉</h1>
+    <p class="message">Wishing you joy, laughter, and unforgettable memories!</p>
+
+    <button onclick="launchConfetti()">Celebrate 🎊</button>
+    <button onclick="toggleGallery()">View Photo Gallery 📷</button>
+    <!-- <button onclick="toggleMoments()">See Moments 🕰️</button> -->
+    <button onclick="showSurprise()">Open Your Surprise 💌</button>
+    <button onclick="toggleMusic()">Play Music 🎵</button>
+
+    <!-- <div id="countdown"></div>
+    <canvas id="confetti-canvas"></canvas> -->
+
+    <div id="surpriseMessage" class="hidden">
+      <p>Dear Pallavi, you light up our lives with your smile. Keep shining, keep dreaming! 🌟</p>
+    </div>
+
+    <div id="gallery" class="hidden">
+      <h2>Photo Gallery</h2>
+      <div class="grid">
+        <img src="img1.jpg" alt="Moment 1" height="397.038" />
+        <img src="img2.jpg" alt="Moment 2" />
+        <img src="img3.jpg" alt="Moment 3" />
+      </div>
+    </div>
+
+    <div id="moments" class="hidden">
+      <h2>Special Moments</h2>
+      <ul class="timeline">
+        <li><strong>10:00 AM:</strong> Surprise breakfast party 🎉</li>
+        <li><strong>1:00 PM:</strong> Movie marathon 🍿</li>
+        <li><strong>6:00 PM:</strong> Cake cutting & dance 💃</li>
+      </ul>
+    </div>
+
+    <audio id="bgMusic" src="happy1.mp3" loop></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

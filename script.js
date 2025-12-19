@@ -1,3 +1,5 @@
+document.title = "Happy Birthday Pallavi"
+
 // Set sister's name
 document.getElementById("sisterName").textContent = "Pallavi"; // Change name here
 
@@ -55,4 +57,5 @@ function toggleMusic() {
 // Load confetti library
 const script = document.createElement('script');
 script.src = 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js';
+
 document.head.appendChild(script);
